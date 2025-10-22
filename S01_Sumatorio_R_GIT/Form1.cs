@@ -16,5 +16,10 @@ namespace S01_Sumatorio_R_GIT
         {
             InitializeComponent();
         }
+
+        private void lblNumero_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -39,20 +39,21 @@
             this.lblNumero.AutoSize = true;
             this.lblNumero.Location = new System.Drawing.Point(85, 74);
             this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(44, 16);
+            this.lblNumero.Size = new System.Drawing.Size(117, 16);
             this.lblNumero.TabIndex = 0;
-            this.lblNumero.Text = "label1";
+            this.lblNumero.Text = "ingresa un numero";
+            this.lblNumero.Click += new System.EventHandler(this.lblNumero_Click);
             // 
             // txtNumero
             // 
-            this.txtNumero.Location = new System.Drawing.Point(208, 74);
+            this.txtNumero.Location = new System.Drawing.Point(239, 74);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(100, 22);
             this.txtNumero.TabIndex = 1;
             // 
             // txtRespuesta
             // 
-            this.txtRespuesta.Location = new System.Drawing.Point(390, 168);
+            this.txtRespuesta.Location = new System.Drawing.Point(239, 159);
             this.txtRespuesta.Name = "txtRespuesta";
             this.txtRespuesta.Size = new System.Drawing.Size(100, 22);
             this.txtRespuesta.TabIndex = 2;
